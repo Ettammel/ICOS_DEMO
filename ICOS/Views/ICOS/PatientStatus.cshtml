@@ -1,0 +1,248 @@
+﻿<body class="BodyPatientStatus">
+    <div class="row">
+
+        <div class="container">
+            <br />
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h4>Dr. Abcd</h4>
+                        </div>
+                        <div class="col-md-4">
+                            @*<input type="button" class="btn btn-primary pull-right" value="Refresh" />*@
+                            <button class="btn btn-primary pull-right"><span class="glyphicon glyphicon-refresh"></span></button>
+
+                        </div>
+                        <div class="col-md-4">
+                            <form id="searchpatient">
+                                <input type="text" class="pull-right form-control" placeholder="Find Patient" />
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="panel panel-info">
+                        <div class="panel-heading">
+                            <label>Schedule</label>
+                            <label class="pull-right">@System.DateTime.Now.ToString("dddd, dd MMMM yyyy")</label>
+                        </div>
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <h5>@System.DateTime.Now.ToString("dddd, dd MMMM yyyy")</h5>
+                                </div>
+                                <div class="col-sm-4">
+                                    <input type="date" class="form-control pull-left" />
+                                </div>
+                                <div class="col-sm-2">
+                                    <button class="btn btn-info pull-right">Today</button>
+
+                                </div>
+                                <div class="col-sm-2">
+
+                                    <button class="btn btn-info pull-right">More</button>
+
+                                </div>
+                            </div>
+                            <br />
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <select class="form-control">
+                                        <option>Select Doctor</option>
+                                    </select>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <select class="form-control">
+                                        <option>Select Time</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-4">
+                                    <button class="btn btn-primary pull-right">
+                                        Search
+                                    </button>
+                                </div>
+                            </div>
+                            <br />
+                            <div class="row">
+                                <ul class="list-group">
+                                    @for (int d = 0; d < 1; ++d)
+                                    {
+
+                                        <li class="list-group-item clearfix">
+                                            <div class="square pull-left">10:00</div>
+
+                                            <span>
+                                                <img src="~/images/icos/profile2.jpg" class="img-responsive img-thumbnail pull-left profilePic" />
+                                            </span>
+                                            <div class="row">
+                                                <div class="col-sm-3">
+                                                    <label>Patient One</label>
+                                                    <p>Reason One</p>
+                                                    <span>Doctor Name</span>
+                                                </div>
+                                                <div class="col-sm-2">
+                                                    <label>50 <span>M</span></label>
+                                                    <p>[Arrival 09:50]</p>
+                                                </div>
+                                                <div class="col-sm-3">
+                                                    <label>Pre-Depart</label>
+                                                    <p><strong>Room 1</strong></p>
+                                                    <p>09:59</p>
+                                                </div>
+                                                <div class="col-sm-1">
+                                                    <label>Pending</label>
+                                                    <p>
+                                                        <span class="badge badge-info">O</span>
+                                                        <span class="badge badge-info">L</span>
+                                                    </p>
+
+                                                </div>
+                                            </div>
+                                        </li>
+                                    }
+
+                                    <li class="list-group-item clearfix">
+                                        <div class="square pull-left">11:00</div>
+
+                                        <span>
+                                            <img src="~/images/icos/profile1.jpg" class="img-responsive img-thumbnail pull-left profilePic" />
+                                        </span>
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <label>Patient One</label>
+                                                <p>Reason One</p>
+                                                <span>Doctor Name</span>
+                                            </div>
+                                            <div class="col-sm-2">
+                                                <label>50 <span>M</span></label>
+                                                <p>[Arrival 09:50]</p>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <label>Pre-Depart</label>
+                                                <p><strong>Room 1</strong></p>
+                                                <p>09:59</p>
+                                            </div>
+                                            <div class="col-sm-1">
+                                                <label>Pending</label>
+                                                <p>
+                                                    <span class="badge badge-info">O</span>
+                                                    <span class="badge badge-info">L</span>
+                                                </p>
+
+                                            </div>
+                                        </div>
+                                    </li>
+
+
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="panel panel-warning">
+                        <div class="panel-heading">
+                            Workload
+                            <span class="glyphicon glyphicon-chevron-down pull-right" data-toggle="collapse" data-target="#workload"></span>
+                        </div>
+                        <div class="panel-collapse collapse col-sm-offset-1" id="workload">
+                            <br />
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <p>Workload Data</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="panel panel-success">
+                        <div class="panel-heading">
+                            Recently Accessed
+                            <span class="glyphicon glyphicon-chevron-down pull-right" data-toggle="collapse" data-target="#recentlyAccessed"></span>
+                        </div>
+                        <div class="panel-collapse collapse col-sm-offset-1" id="recentlyAccessed">
+                            <br />
+                            <div class="row">
+                                <div class="col-sm-6"><label>Name</label></div>
+                                <div class="col-sm-6"><label>Visit Date</label></div>
+                            </div>
+                            @for (int i = 0; i < 10; ++i)
+                            {
+                                <div class="row">
+                                    <div class="col-sm-6"><p>Patient + @i</p></div>
+                                    <div class="col-sm-6">@System.DateTime.Now.ToString("MM/dd/yyyy")</div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Quick links
+                            <span class="glyphicon glyphicon-chevron-down pull-right" data-toggle="collapse" data-target="#quicklinks"></span>
+                        </div>
+                        <div class="panel-collapse collapse col-sm-offset-1" id="quicklinks">
+                            <div class="row">
+                                <br />
+                                <div class="col-md-12">
+                                    <p><strong> <a href="#">Hospital Intranet</a></strong></p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <p><strong> <a href="#">UpToDate</a></strong></p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <p><strong><a href="#">Vaccine information Statement</a></strong></p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <p><strong> <a href="#">AAFP</a></strong></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    @*<div class="row" style="color:black;">
+        <div class="navbar navbar-inverse navbar-fixed-bottom">
+            <div class="container">
+
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a asp-area="" asp-controller="" asp-action=""><span class="glyphicon glyphicon-option-vertical"> Return</span></a></li>
+                        <li><a asp-area="" asp-controller="" asp-action=""><span class="glyphicon glyphicon-home"> Home</span></a></li>
+                        <li><a asp-area="" asp-controller="" asp-action=""><span class="glyphicon glyphicon-list-alt"> Workload</span></a></li>
+
+
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a asp-area="" asp-controller="" asp-action=""><span class="glyphicon glyphicon-plus"> Compose</span></a></li>
+                        <li><a asp-area="" asp-controller="" asp-action=""><span class="glyphicon glyphicon-list"> More</span></a></li>
+                        <li><a asp-area="" asp-controller="" asp-action=""><span class="glyphicon glyphicon-log-out"> Logoff</span></a></li>
+                        <li><a asp-area="" asp-controller="" asp-action=""><span class="glyphicon glyphicon-cog"> Settings</span></a></li>
+                    </ul>
+                </div>
+               
+                    
+                
+
+            </div>
+        </div>
+    </div>*@
+
+</body>
+
+<link href="~/Style/Icos.css" rel="stylesheet" />
+

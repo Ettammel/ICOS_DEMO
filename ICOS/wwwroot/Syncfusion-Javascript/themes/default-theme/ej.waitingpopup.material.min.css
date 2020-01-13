@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/*!
+*  filename: ej.waitingpopup.material.min.css
+*  version : 16.1.0.37
+*  Copyright Syncfusion Inc. 2001 - 2018. All rights reserved.
+*  Use of this code is subject to the terms of our license.
+*  A copy of the current license can be obtained at any time by e-mailing
+*  licensing@syncfusion.com. Any infringement will be prosecuted under
+*  applicable laws. 
+*/
+.e-content-area{background-color:#fff;color:#111;border-color:#e0e0e0;font-family:'Roboto',Segoe UI,Helvetica Neue,Ubuntu,Arial}.e-waitpopup-pane .e-image{background-color:#fff;background-image:url(images/waitingpopup.gif)}.e-waitpopup-pane{color:#fff;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.e-waitpopup-pane{background-color:rgba(0,0,0,.54)}

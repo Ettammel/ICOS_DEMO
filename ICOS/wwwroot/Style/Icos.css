@@ -1,0 +1,196 @@
+﻿@import url('icos.css');
+.LoginBgcolor {
+    background-color: #e6e6f2;
+    min-height: 90%;
+    max-height: 90%;
+}
+.LoginSubmit{
+    width:100px;
+}
+.BodyPatientStatus {
+    background-color: #e6e6f2;
+    min-height: 90%;
+    max-height: 90%;
+    min-width: 90%;
+}
+.BodyMainDashboard {
+    background-color: #e6e6f2;
+    min-height: 90%;
+    max-height: 90%;
+    min-width: 90%;
+}
+
+.WellIcon {
+    background-color: #5bc0de;
+}
+.IconSquare {
+    height: 50px;
+    width: 70px;
+    background-color: #5bc0de;
+    text-align: center;
+    padding-top: 15px;
+    cursor: pointer;
+    
+}
+.MinWidth90{
+    min-width:90%;
+}
+.profilePic{
+    max-height:70px;
+    max-width:70px;
+    cursor:pointer;
+}
+.IconTeleHealth {
+    border-radius: 5px;
+    max-height: 70px;
+    max-width: 70px;
+    cursor: pointer;
+    border: 2px solid #459fed;
+    padding: 5px;
+    margin-bottom: 2px;
+}
+.profilePicTwo {
+    max-height: 110px;
+    max-width: 90px;
+    cursor: pointer;
+}
+.square {
+    height: 70px;
+    width: 70px;
+    background-color: #ddff99;
+    text-align: center;
+    padding-top:22px;
+}
+
+
+.btnsquare {
+    height: 60px;
+    width: 120px;
+    background-color: #ddff99;
+    text-align:center;
+    cursor:pointer;
+    padding-top: 12px;
+    margin:10px;
+}
+/*body {
+    background-color: #0080ff;
+    min-height
+}*/
+
+.sidenav {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 50px;
+    left: 0;
+    background-color: #edf3fa;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 10px;
+
+}
+
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 15px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+        opacity: 1 !important;
+        opacity: 0.5;
+    }
+
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+        /*.sidenav a:hover {
+            background-color: #edf3fa;
+            color: black;
+        }*/
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 26px;
+        margin-left: 50px;
+    }
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+        .sidenav a {
+            font-size: 18px;
+            
+        }
+}
+.sideoption {
+    background-color: black;
+    border: 1px solid #1a1717;
+    color: white;
+}
+    .sideoption:hover {
+        border: 1px solid #1a1717;
+        text-decoration: underline;
+        opacity: 2!important;
+    }
+.sidebarwidth {
+    width: 160px;
+}
+
+.sideoptionHide {
+    background-color: #383636;
+    border: 1px solid black;
+    color: white !important;
+}
+    .sideoptionHide:hover {
+        border: 1px solid #383636;
+        cursor:pointer;
+        background-color: #e84138!important;
+    }
+.btnsquare:hover {
+    border: 1px solid #383636;
+    background-color: #1b58f2 !important;
+    color: white;
+}
+
+.timeSpan {
+    height: 20px;
+    width: 75px;
+    margin-bottom:10px;
+    color: Highlight;
+    border: 1px solid Highlight;
+    text-align: center;
+}
+    .timeSpan:hover {
+        color: white;
+        background-color:Highlight;
+        cursor:pointer;
+    }
+.onlineStatus {
+    background-color: forestgreen;
+    width:90px;
+    color:white;
+    text-align:center;
+}
+.offlineStatus {
+    background-color: orangered;
+    width: 90px;
+    color: white;
+    text-align: center;
+}
+
+.searchboxStyle {
+    height: 30px !important;
+}
+
+
+
+.navbarColor {
+    background-color: #2d3952;
+}
+
+/*459fed*/

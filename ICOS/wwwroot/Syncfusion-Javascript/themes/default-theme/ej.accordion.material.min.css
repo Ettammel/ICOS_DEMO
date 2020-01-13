@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/*!
+*  filename: ej.accordion.material.min.css
+*  version : 16.1.0.37
+*  Copyright Syncfusion Inc. 2001 - 2018. All rights reserved.
+*  Use of this code is subject to the terms of our license.
+*  A copy of the current license can be obtained at any time by e-mailing
+*  licensing@syncfusion.com. Any infringement will be prosecuted under
+*  applicable laws. 
+*/
+.e-content-area{background-color:#fff;color:#111;border-color:#e0e0e0;font-family:'Roboto',Segoe UI,Helvetica Neue,Ubuntu,Arial}.e-acrdn{font-family:'Roboto',Segoe UI,Helvetica Neue,Ubuntu,Arial}.e-acrdn>.e-content{border-color:#e0e0e0;background-color:#fff}.e-acrdn>.e-content{border-right:0;border-left:0;border-bottom:0 solid;color:rgba(0,0,0,.54);font-size:13px}.e-acrdn>.e-select,.e-acrdn>.e-disable.e-select:hover,.e-acrdn>.e-disable.e-select:hover a{background:#fff;color:rgba(0,0,0,.87)}.e-acrdn .e-select{font-weight:normal;font-family:'Roboto',Segoe UI,Helvetica Neue,Ubuntu,Arial}.e-acrdn .e-select{border-color:#fff;font-size:15px}.e-acrdn .e-select:hover{background:#fff;color:rgba(0,0,0,.87);border-color:#fff}.e-acrdn .e-select a{color:#212121}.e-acrdn .e-select:first-child{border-top-color:#e0e0e0}.e-acrdn>.e-select:first-child{border-color:#fff}.e-acrdn .e-select.e-active,.e-acrdn .e-disable.e-active.e-select:hover a,.e-acrdn .e-disable.e-active.e-select:hover{background:#fff;color:rgba(0,0,0,.87)}.e-acrdn.e-disable .e-select:hover,.e-acrdn.e-disable .e-select:hover a{background:#ecedee;color:#5c5c5c}.e-acrdn .e-select.e-active{font-weight:normal;border-bottom:medium none}.e-acrdn .e-select.e-active{border:none}.e-acrdn .e-select.e-active:hover{background:#fff;color:rgba(0,0,0,.87);border-color:#fff}.e-acrdn .e-select.e-active a{color:rgba(0,0,0,.87)}.e-acrdn .e-select:hover a,.e-acrdn .e-select.e-active:hover a{color:rgba(0,0,0,.87)}.e-acrdn .e-select>span{color:#424242}.e-acrdn .e-select.e-active>span{color:rgba(0,0,0,.87)}.e-acrdn .e-select:hover>span,.e-acrdn .e-select.e-active:hover>span{color:#424242}.e-acrdn .e-select.e-disable:hover>span,.e-acrdn .e-select.e-disable.e-active:hover>span{color:#424242}.e-acrdn .e-content.e-load{background-image:url(images/ajax-loader.gif);background-position:center;background-repeat:no-repeat}

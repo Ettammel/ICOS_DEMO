@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/*!
+*  filename: ej.tagcloud.material.min.css
+*  version : 16.1.0.37
+*  Copyright Syncfusion Inc. 2001 - 2018. All rights reserved.
+*  Use of this code is subject to the terms of our license.
+*  A copy of the current license can be obtained at any time by e-mailing
+*  licensing@syncfusion.com. Any infringement will be prosecuted under
+*  applicable laws. 
+*/
+.e-content-area{background-color:#fff;color:#111;border-color:#e0e0e0;font-family:'Roboto',Segoe UI,Helvetica Neue,Ubuntu,Arial}.e-tagcloud{background-color:#fff}.e-tagcloud.e-js .header{border-color:#e0e0e0}.e-tagcloud .e-title{background:#fff;color:rgba(0,0,0,.87);font-size:20px;font-weight:500;font-family:'Roboto',Segoe UI,Helvetica Neue,Ubuntu,Arial;border-top:0 solid #eee}.e-tagcloud .e-load{background-image:url(images/ajax-loader.gif);background-position:center center;background-repeat:no-repeat}.e-tagcloud .e-tagitems .e-txt{color:rgba(0,0,0,.87)}.e-tagcloud .e-tagitems .e-txt.hover{color:rgba(0,0,0,.54)}.e-tagcloud .e-cloud,.e-tagcloud .e-list{border-color:#e0e0e0}

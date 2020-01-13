@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ICOS</title>
+
+    <environment include="Development">
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        <link href="~/Style/Sidebar.css" rel="stylesheet" />
+        <link rel="stylesheet" href="~/css/site.css" />
+    </environment>
+    <environment exclude="Development">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+        <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+    </environment>
+
+    <environment include="Development">
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+
+        <link rel="stylesheet" href="//cdn.syncfusion.com/17.1.0.38/js/web/flat-azure/ej.web.all.min.css" />
+        <!-- Essential Studio for JavaScript  script references -->
+        <script src="//cdn.syncfusion.com/js/assets/external/jsrender.min.js"></script>
+        <script src="//cdn.syncfusion.com/17.1.0.38/js/web/ej.web.all.min.js"></script>
+    </environment>
+    <environment exclude="Development">
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.3.1.min.js"
+                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                asp-fallback-test="window.jQuery"
+                crossorigin="anonymous"
+                integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+                asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
+                asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+                crossorigin="anonymous"
+                integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd">
+        </script>
+        <script src="~/js/site.min.js" asp-append-version="true"></script>
+    </environment>
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top navbarColor">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <strong>
+                    <a class="navbar-brand" style="font-size:x-large">
+                        <span class="glyphicon glyphicon-th" onclick="openNav()" title="Open menu"></span>
+                        ICOS
+                    </a>
+                </strong>
+            </div>
+            <div class="navbar-collapse collapse">
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-bell"></span></a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-cog"></span></a></li>
+                    <li><a asp-controller="ICOS" asp-action="Login"><span class="glyphicon glyphicon-user"></span></a></li>
+                </ul>
+                
+                <div class="col-md-9 ">
+                    <form class="navbar-form" role="search">
+                        <div class="input-group col-sm-offset-3 col-sm-8">
+                            <input type="text" class="form-control searchboxStyle" autocomplete="off" placeholder="Search" name="q">
+                            <div class="input-group-btn">
+                                <button class="btn btn-default searchboxStyle" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+            <div>
+
+            </div>
+        </div>
+        @*<div id="mySidenav" class="sidenav sidebarwidth">
+            <div class="">
+                <span class="badge sideoptionHide navbar-toggle" onclick="closeNav()">&Chi;</span>
+            </div>
+            <br />
+            <br />
+            <a class=" sideoption" asp-controller="ICOS" asp-action="PatientStatus">Patient Status</a>
+            <a class=" sideoption" asp-controller="ICOS" asp-action="DoctorStatus">Doctor Status</a>
+            <a class=" sideoption" asp-controller="ICOS" asp-action="InventoryManagement">Inventory Management</a>
+            <a class=" sideoption" asp-controller="ICOS" asp-action="MainScadaDashoard">Scada Dashoard</a>
+            <a class=" sideoption" asp-controller="ICOS" asp-action="TeleHealth">Tele Health</a>
+        </div>*@
+    </nav>
+
+    <partial name="_CookieConsentPartial" />
+
+    <div class="container body-content">
+
+
+        <div id="mySidebar" class="sidebar">
+    <div class="">
+        <span class="badge sideoptionHide navbar-toggle" onclick="closeNav()">&Chi;</span>
+    </div>
+    <br />
+    <br />
+    <a class=" sideoption" asp-controller="ICOS" asp-action="PatientStatus">Patient Status</a>
+    <a class=" sideoption" asp-controller="ICOS" asp-action="DoctorStatus">Doctor Status</a>
+    <a class=" sideoption" asp-controller="ICOS" asp-action="InventoryManagement">Inventory Management</a>
+    <a class=" sideoption" asp-controller="ICOS" asp-action="MainScadaDashoard">Scada Dashoard</a>
+    <a class=" sideoption" asp-controller="ICOS" asp-action="TeleHealth">Tele Health</a>
+</div>
+
+        <div id="main">
+            @RenderBody()
+        </div>
+
+
+
+
+
+        
+        <br />
+        <footer>
+            <p></p>
+        </footer>
+    </div>
+
+
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
+<script>
+    
+
+    function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+<ej-script-manager></ej-script-manager>

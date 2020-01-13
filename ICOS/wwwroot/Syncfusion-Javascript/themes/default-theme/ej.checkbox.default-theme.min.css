@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/*!
+*  filename: ej.checkbox.default-theme.min.css
+*  version : 15.4.0.17
+*  Copyright Syncfusion Inc. 2001 - 2016. All rights reserved.
+*  Use of this code is subject to the terms of our license.
+*  A copy of the current license can be obtained at any time by e-mailing
+*  licensing@syncfusion.com. Any infringement will be prosecuted under
+*  applicable laws. 
+*/
+.e-content-area{background-color:#fff;color:#111;border-color:#c8c8c8;font-family:Segoe UI,Helvetica Neue,Ubuntu,Arial}.e-chkbox-wrap{display:inline-flex}.e-chkbox-wrap.e-tb-cell .e-text,.e-chkbox-wrap.e-tb-cell div{display:table-cell;padding:0 5px 2px 5px}.e-chkbox-wrap.e-check-small.e-tb-cell .e-text{padding:0 5px 2px 5px}.e-chkbox-wrap.e-focus div>span{box-shadow:0 0 2px #cbcbcb}.e-chkbox-wrap div>span{border-color:#c8c8c8;background-color:#fff}.e-chkbox-wrap div>span.e-chk-act,.e-chkbox-wrap div>span:hover{border-color:#c8c8c8}.e-chkbox-wrap div>span.e-chk-act{border-color:#c8c8c8}.e-chkbox-wrap .e-chk-image.e-stop,.e-chkbox-wrap .e-chk-image.e-checkmark{color:#179bd7}.e-chkbox-wrap .e-text{font-family:Segoe UI,Helvetica Neue,Ubuntu,Arial;font-size:12px;color:#333}@keyframes mediumShadow{100%{opacity:0;transform:scale(18,18)}}@keyframes smallShadow{100%{opacity:0;transform:scale(15,15)}}.e-chkbox-wrap.e-disable div>span{background-color:#f5f5f5;border-color:#e3e3e3}.e-chkbox-wrap.e-disable{opacity:1}.e-chkbox-wrap.e-disable .e-chk-image.e-stop,.e-chkbox-wrap.e-disable .e-chk-image.e-checkmark{color:#d6d7d7}

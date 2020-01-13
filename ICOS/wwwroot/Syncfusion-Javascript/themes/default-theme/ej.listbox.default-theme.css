@@ -1,0 +1,893 @@
+@charset "UTF-8";
+/*!
+*  filename: ej.listbox.default-theme.css
+*  version : 15.3.0.33
+*  Copyright Syncfusion Inc. 2001 - 2016. All rights reserved.
+*  Use of this code is subject to the terms of our license.
+*  A copy of the current license can be obtained at any time by e-mailing
+*  licensing@syncfusion.com. Any infringement will be prosecuted under
+*  applicable laws. 
+*/
+
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition-----------------*/
+/*-----------------------OLAP Definition End-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #c8c8c8;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+/*------------------------------------- scrollbar -------------------------------------------*/
+
+.e-scrollbar .e-vscroll,
+.e-scrollbar .e-hscroll,
+.e-scrollbar .e-vhandlespace {
+  
+}
+.e-scrollbar .e-vscroll,
+.e-scrollbar .e-hscroll,
+.e-scrollbar .e-vhandlespace {
+  background-color: #fafafa;
+}
+.e-scrollbar .e-vscroll {
+  
+  border-right: none;
+}
+.e-scrollbar .e-vscroll {
+  border-left: 1px solid #c8c8c8;
+}
+.e-scrollbar .e-hscroll {
+  
+}
+.e-scrollbar .e-hscroll {
+  border-top: 1px solid #c8c8c8;
+}
+.e-scrollbar .e-hscroll .e-hdown.e-icon {
+  
+}
+.e-scrollbar .e-hscroll .e-hdown.e-icon {
+  border-right: 1px solid #c8c8c8;
+}
+.e-scrollbar .e-hscroll .e-hup.e-icon {
+  border-left: none;
+}
+.e-scrollbar .e-vscroll .e-chevron-down_01.e-icon {
+  
+}
+.e-scrollbar .e-vscroll .e-chevron-down_01.e-icon {
+  border-bottom: 1px solid #c8c8c8;
+}
+.e-scroller.e-rtl .e-scrollbar .e-vscroll {
+  
+  border-left: none;
+}
+.e-scroller.e-rtl .e-scrollbar .e-vscroll {
+  border-right: 1px solid #c8c8c8;
+}
+.e-scroller.e-rtl .e-scrollbar .e-hscroll .e-hup.e-icon {
+  border-left: 1px solid #c8c8c8;
+}
+.e-scroller.e-rtl .e-scrollbar .e-hscroll .e-hdown.e-icon {
+  border-right: none;
+}
+.e-scrollbar .e-vhandle,
+.e-scrollbar .e-hhandle {
+  
+  transition: top 0.1s linear 0s, left 0.1s linear 0s;
+}
+.e-scrollbar .e-vhandle,
+.e-scrollbar .e-hhandle {
+  background-color: #ececec;
+}
+.e-scrollbar .e-vhandle {
+  
+}
+.e-scrollbar .e-vhandle {
+  border-top: 1px solid #c8c8c8;
+  border-bottom: 1px solid #c8c8c8;
+}
+.e-scrollbar .e-vhandle:hover,
+.e-scrollbar .e-vhandle:active {
+  
+}
+.e-scrollbar .e-hhandle {
+  
+}
+.e-scrollbar .e-hhandle {
+  border-left: 1px solid #c8c8c8;
+  border-right: 1px solid #c8c8c8;
+}
+.e-scrollbar .e-hhandle:hover,
+.e-scrollbar .e-hhandle:active {
+  
+}
+.e-vhandle.e-box.e-pinch.e-touch,
+.e-hhandle.e-box.e-pinch.e-touch {
+  
+}
+.e-vhandle.e-box.e-pinch.e-touch,
+.e-hhandle.e-box.e-pinch.e-touch {
+  background-color: #86cbea;
+}
+.e-scrollbar .e-vhandle:hover,
+.e-scrollbar .e-hhandle:hover {
+  
+}
+.e-scrollbar .e-vhandle:hover,
+.e-scrollbar .e-hhandle:hover {
+  background-color: #86cbea;
+  cursor: default;
+  border-color: #c8c8c8;
+}
+.e-scrollbar .e-vhandle.e-disable:hover,
+.e-scrollbar .e-hhandle.e-disable:hover,
+.e-scrollbar .e-vhandle.e-disable,
+.e-scrollbar .e-hhandle.e-disable,
+.e-scroller .e-vscroll .e-vup.e-button.e-disable,
+.e-scroller .e-vscroll .e-vdown.e-button.e-disable,
+.e-scroller .e-hscroll .e-hup.e-button.e-disable,
+.e-scroller .e-hscroll .e-hdown.e-button.e-disable,
+.e-scroller .e-vscroll .e-vup.e-button.e-disable:hover,
+.e-scroller .e-vscroll .e-vdown.e-button.e-disable:hover,
+.e-scroller .e-hscroll .e-hup.e-button.e-disable:hover,
+.e-scroller .e-hscroll .e-hdown.e-button.e-disable:hover {
+  
+}
+.e-scrollbar .e-vhandle:active,
+.e-scrollbar .e-hhandle:active {
+  
+}
+.e-scrollbar .e-button {
+  
+}
+.e-scrollbar .e-button {
+  /*other*/
+  color: #686969;
+}
+.e-scrollbar .e-button:hover {
+  
+  border-color: #c8c8c8;
+}
+.e-scrollbar .e-button:hover {
+  /*other*/
+  background-color: #86cbea;
+  color: #282827;
+}
+.e-scrollbar .e-button {
+  
+}
+.e-scrollbar .e-button {
+  /*other*/
+  background-color: #ececec;
+}
+.e-scroller .e-disable .e-vhandle:hover,
+.e-scroller .e-disable .e-button :hover,
+.e-scroller .e-disable .e-hhandle:hover {
+  border: 1px solid #c8c8c8;
+  transition: top 0.1s linear 0s, left 0.1s linear 0s;
+}
+.e-scroller .e-disable .e-vhandle:hover,
+.e-scroller .e-disable .e-button :hover,
+.e-scroller .e-disable .e-hhandle:hover {
+  background: #ececec;
+}
+.e-scrollbar .e-v-line:before {
+  content: "";
+}
+.e-scrollbar .e-h-line:before {
+  content: "";
+}
+.e-scroller .e-button,
+.e-scroller .e-disable .e-button:hover {
+  
+}
+.e-scroller .e-button,
+.e-scroller .e-disable .e-button:hover {
+  color: #686969;
+}
+.e-scroller .e-disable .e-button:hover {
+  background-color: transparent;
+}
+.e-scroller .e-vscroll .e-vup.e-button,
+.e-scroller .e-vscroll .e-vdown.e-button,
+.e-scroller .e-hscroll .e-hup.e-button,
+.e-scroller .e-hscroll .e-hdown.e-button {
+  
+}
+.e-scroller .e-vscroll .e-vup.e-button:hover,
+.e-scroller .e-vscroll .e-vdown.e-button:hover,
+.e-scroller .e-hscroll .e-hup.e-button:hover,
+.e-scroller .e-hscroll .e-hdown.e-button:hover {
+  
+}
+.e-scroller .e-vscroll .e-vup.e-button:active,
+.e-scroller .e-vscroll .e-vdown.e-button:active,
+.e-scroller .e-hscroll .e-hup.e-button:active,
+.e-scroller .e-hscroll .e-hdown.e-button:active {
+  
+}
+
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition-----------------*/
+/*-----------------------OLAP Definition End-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #c8c8c8;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+/*------------------------------------- listbox -------------------------------------------*/
+
+.e-listbox .e-select {
+  
+}
+.e-listbox .e-select {
+  border-color: #179bd7;
+  color: white;
+}
+.e-listbox .e-select {
+  background: #179bd7;
+}
+.e-listbox .e-active {
+  color: white;
+  border-color: #86cbea;
+}
+.e-listbox .e-active {
+  background: #86cbea;
+}
+.e-listbox .e-hover {
+  
+}
+.e-listbox .e-hover {
+  color: #282827;
+}
+.e-listbox .e-hover {
+  background: #86cbea;
+}
+.e-dragClonelist {
+  
+}
+.e-dragClonelist {
+  background: #179bd7;
+  color: white;
+  opacity: 0.5;
+  text-align: center;
+}
+.e-wrap .e-listbox li {
+  
+  word-break: break-all;
+}
+.e-wrap .e-listbox li {
+  padding-left: 10px !important;
+}
+.e-rtl.e-wrap .e-listbox li {
+  
+}
+.e-nowrap .e-listbox li {
+  padding-left: 10px !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.e-ddl-popup.e-load {
+  background-image: url(images/ajax-loader.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.e-ddl-popup.e-wrap .e-listbox li.allowDrop {
+  
+}
+.e-ddl-popup.e-wrap.e-js {
+  
+}
+.e-listbox .e-chkbox-wrap .e-chkbox-small .e-chk-inact,
+.e-listbox .e-chkbox-wrap .e-chkbox-small .e-chk-act {
+  
+}
+.e-listbox .e-chkbox-wrap .e-chkbox-small .e-chk-inact,
+.e-listbox .e-chkbox-wrap .e-chkbox-small .e-chk-act {
+  top: 2px;
+}
+.e-listbox .e-chkbox-wrap .e-chkbox-small .e-chk-act .e-checkmark {
+  
+}
+.e-ddl-popup.e-wrap.e-js div > ul li .e-chkbox-wrap,
+.e-ddl-popup div > .e-listbox li .e-chkbox-wrap {
+  
+}
+.e-ddl-popup div > .e-ul .e-ghead {
+  
+}
+.e-ddl-popup div > .e-ul .e-ghead {
+  font-weight: bold;
+  border-bottom: 1px solid #c8c8c8;
+  display: block;
+  margin: 2px 2px 2px 0px;
+  position: relative;
+  padding-bottom: 5px;
+  padding-left: 0.857em;
+}
+.e-ddl-popup.e-wrap.e-js div > ul li .e-align {
+  
+}
+.e-ddl-popup.e-wrap {
+  
+}
+.e-ddl-popup.e-wrap .e-listbox li {
+  
+}
+.e-ddl-popup.e-wrap .e-listbox li.e-select {
+  
+}
+.e-ddl-popup.e-wrap .e-listbox li.e-hover {
+  
+}
+.e-ddl-popup div > .e-listbox li:empty {
+  
+}
+.e-ddl-popup.e-js {
+  max-height: inherit;
+  max-width: inherit;
+}
+.e-listbox .e-draggable {
+  touch-action: none;
+}
+
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition-----------------*/
+/*-----------------------OLAP Definition End-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #c8c8c8;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+/*------------------------------------- dropdownlist -------------------------------------------*/
+
+.e-ddl .e-options {
+  
+}
+.e-ddl .e-input,
+.e-ddl .e-input[readonly],
+.e-ddl-popup,
+.e-ddl .e-options {
+  
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  font-size: 14px;
+  font-weight: normal;
+  cursor: default;
+}
+.e-ddl .e-input,
+.e-ddl .e-input[readonly],
+.e-ddl-popup,
+.e-ddl .e-options {
+  /*other*/
+
+  
+}
+.e-ddl .e-input,
+.e-ddl .e-input[readonly],
+.e-ddl-popup,
+.e-ddl .e-options {
+  color: #333333;
+  background-color: white;
+}
+.e-atc-popup ul li.e-category {
+  
+}
+.e-ddl .e-in-wrap,
+.e-ddl-popup,
+.e-ddl .e-options,
+.e-ddl-popup .e-atc.e-search {
+  
+}
+.e-ddl .e-in-wrap,
+.e-ddl-popup,
+.e-ddl .e-options,
+.e-ddl-popup .e-atc.e-search {
+  /*other*/
+
+  
+}
+.e-ddl .e-in-wrap,
+.e-ddl-popup,
+.e-ddl .e-options,
+.e-ddl-popup .e-atc.e-search {
+  border-color: #c8c8c8;
+}
+.e-ddl .e-options.e-active {
+  
+}
+.e-ddl .e-options.e-active {
+  /*other*/
+  background-color: #179bd7;
+  color: white;
+  border-color: #179bd7;
+}
+.e-ddl .e-options:hover {
+  
+}
+.e-ddl .e-options .e-icon.e-close {
+  
+}
+.e-ddl-popup div > ul li {
+  
+}
+.e-ddl-popup .e-active.e-hover {
+  
+}
+.e-ddl .e-boxes {
+  background-color: white;
+}
+.e-ddl.e-popactive .e-in-wrap:before,
+.e-ddl.e-popactive .e-in-wrap:after {
+  
+}
+.e-ddl.e-focus .e-in-wrap {
+  
+}
+.e-ddl.e-focus .e-in-wrap {
+  /*other*/
+  box-shadow: 0 0 2px #cbcbcb;
+}
+.e-ddl:hover .e-in-wrap {
+  
+}
+.e-ddl .e-input.e-watermark {
+  color: #d2d1d1 !important;
+  font-style: italic;
+}
+.e-ddl-popup .e-hover {
+  
+}
+.e-ddl-popup .e-hover {
+  /*other*/
+
+  
+}
+.e-ddl-popup .e-hover {
+  color: #282827;
+}
+.e-ddl-popup .e-hover {
+  background: #86cbea;
+}
+.e-ddl .e-select:hover,
+.e-ddl.e-rtl .e-select:hover {
+  
+}
+.e-ddl .e-select:hover,
+.e-ddl.e-rtl .e-select:hover {
+  /*other*/
+
+  
+}
+.e-ddl .e-select:hover,
+.e-ddl.e-rtl .e-select:hover {
+  color: #282827;
+  border-color: #c8c8c8;
+}
+.e-ddl .e-select:hover,
+.e-ddl.e-rtl .e-select:hover {
+  background: #86cbea;
+}
+.e-ddl .e-select:active,
+.e-ddl.e-rtl .e-select:active {
+  
+}
+.e-ddl .e-select.e-disable {
+  
+}
+.e-ddl .e-input.e-disable {
+  
+}
+.e-ddl-popup .e-active {
+  
+  border-bottom: 1px solid white;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.e-ddl-popup .e-active {
+  /*other*/
+
+  
+}
+.e-ddl-popup .e-active {
+  color: white;
+}
+.e-ddl-popup .e-active {
+  background: #179bd7;
+}
+.e-ddl-popup .e-active.e-hover {
+  
+}
+.e-ddl .e-select,
+.e-ddl.e-rtl .e-select,
+.e-ddl .e-disable.e-select:hover {
+  
+}
+.e-ddl .e-select,
+.e-ddl.e-rtl .e-select,
+.e-ddl .e-disable.e-select:hover {
+  
+  /*other*/
+
+  color: #686969;
+  border-color: #c8c8c8;
+}
+.e-ddl .e-select,
+.e-ddl.e-rtl .e-select,
+.e-ddl .e-disable.e-select:hover {
+  background: #ececec;
+}
+.e-ddl .e-select.e-load {
+  background-image: url(images/ajax-loader.gif);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.e-ddl-popup .e-resize-handle {
+  cursor: se-resize;
+  float: right;
+  padding: 4px 3px 0 0;
+  margin-right: 2px;
+}
+.e-ddl-popup .e-resize-handle.e-rtl-resize {
+  float: left;
+  cursor: sw-resize;
+  transform: rotate(90deg);
+  padding: 3px 0 0 3px;
+}
+.e-ddl-popup .e-resizebar {
+  border-top: 1px solid white;
+  height: 20px;
+  width: auto;
+  display: block;
+}
+.e-ddl-popup .e-resizebar {
+  background: #ececec;
+}
+.e-ddl-popup .e-atc.e-search .e-search:before,
+.e-ddl-popup .e-atc.e-search .e-cross-circle:before {
+  color: #c8c8c8;
+}
+.e-ddl-popup .e-checkwrap.e-check-act,
+.e-ddl-popup .e-checkwrap:hover {
+  
+}
+.e-ddl-popup .e-checkwrap.e-check-act,
+.e-ddl-popup .e-checkwrap:hover {
+  border: 1px solid #c8c8c8;
+}
+.e-ddl-popup .e-checkwrap.e-check-act:hover {
+  
+}
+.e-ddl-popup .e-checkwrap.e-check-act {
+  
+}
+.e-ddl-popup .e-checkwrap {
+  
+  background-color: white;
+}
+.e-ddl-popup .e-checkwrap {
+  
+  /*other*/
+  border-radius: none;
+}
+.e-ddl-popup .e-checkwrap {
+  border: 1px solid #c8c8c8;
+}
+.e-ddl-popup .e-checkwrap:hover {
+  
+}
+.e-ddl-popup .e-check-act {
+  
+}
+.e-ddl-popup .e-check-act {
+  /*other*/
+
+  
+}
+.e-ddl-popup .e-check-act {
+  color: #179bd7;
+}
+.e-dropdownlist::-webkit-input-placeholder {
+  color: #333333;
+}
+.e-dropdownlist:-ms-input-placeholder {
+  color: #333333;
+}
+.e-dropdownlist::-moz-placeholder {
+  color: #333333;
+}
+.e-dropdownlist:-moz-placeholder {
+  color: #333333;
+}
+.e-ddl.e-widget.e-popactive .e-select .e-icon {
+  
+}
+.e-ddl.e-widget .e-select .e-icon {
+  
+}
+.e-ddl-popup .e-check-inact.e-ddl-anim:before {
+  
+}
+.e-ddl-popup .e-check-act.e-ddl-anim:after {
+  
+}
+.e-ddl.e-widget .e-in-wrap.e-disable {
+  border-color: #e3e3e3;
+  background-color: whitesmoke;
+  opacity: initial;
+}
+.e-ddl.e-widget .e-input.e-disable {
+  background: whitesmoke;
+}
+.e-ddl.e-widget .e-select.e-disable {
+  background: #d6d7d7;
+  border-color: #e3e3e3;
+}
+.e-ddl.e-widget .e-input.e-disable {
+  
+}
+
+/*-----------------------Map------------------*/
+/*-----------------------PdfViewer------------------*/
+/*-----------------------End PdfViewer------------------*/
+/*-----------------------OLAP Definition-----------------*/
+/*-----------------------OLAP Definition End-----------------*/
+/*----------------------Reportviewer Definition start------------------*/
+/*----------------------Reportviewer Definition End------------------*/
+/*-----------------------SymbolPalette Definition-----------------*/
+/*-----------------------Diagram Definition-----------------*/
+/*-----------------------Datepicker Definition-----------------*/
+/*-----------------------Bootstrap support-----------------*/
+/*----------------------Ribbon Definition-----------------------*/
+/*----------------------Ribbon End-----------------------*/
+/*----------------------Kanban Definition-----------------------*/
+/*----------------------Kanban End-----------------------*/
+/*----------------------Spreadsheet Definition-----------------------*/
+/*----------------------Spreadsheet End-----------------------*/
+/*----------------------rangeScrollbar Start------------------*/
+/*----------------------rangeScrollbar End--------------------*/
+/*----------------------Office 365 theme-----------------------*/
+/*----------------------High-Contrast-01 & High-Contrast-02 theme-----------------------*/
+/*----------------------material theme-----------------------*/
+/*--------------- common ----------------- */
+/*---------------high-contrast ------*/
+/*---------------- Office-365 ----------------*/
+/*------------------ material theme ---------------------*/
+/*-----------------------HeatMap Definition-----------------*/
+/* Common style */
+
+.e-content-area {
+  background-color: white;
+  color: #111111;
+  border-color: #c8c8c8;
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+}
+.e-chkbox-wrap {
+  display: inline-flex;
+}
+.e-chkbox-wrap.e-tb-cell {
+  display: table-cell;
+}
+.e-chkbox-wrap.e-tb-cell .e-text,
+.e-chkbox-wrap.e-tb-cell div {
+  display: table-cell;
+  padding: 0px 5px 2px 5px;
+}
+.e-chkbox-wrap.e-check-small.e-tb-cell .e-text {
+  padding: 0px 5px 2px 5px;
+}
+.e-chkbox-wrap.e-focus div > span {
+  box-shadow: 0 0 2px #cbcbcb;
+}
+.e-chkbox-wrap div > span {
+  
+}
+.e-chkbox-wrap div > span {
+  /*other*/
+  border-color: #c8c8c8;
+  background-color: white;
+}
+.e-chkbox-wrap.e-disable {
+  
+}
+.e-chkbox-wrap div > span.e-chk-act,
+.e-chkbox-wrap div > span:hover {
+  
+}
+.e-chkbox-wrap div > span.e-chk-act,
+.e-chkbox-wrap div > span:hover {
+  /*other*/
+
+  border-color: #c8c8c8;
+}
+.e-chkbox-wrap div > span:hover {
+  
+}
+.e-chkbox-wrap div > span.e-chk-act {
+  border-color: #c8c8c8;
+  
+}
+.e-chkbox-wrap.e-widget.e-disable div > span.e-chk-act,
+.e-chkbox-wrap.e-widget.e-disable div > span.e-chk-indeter,
+.e-chkbox-wrap.e-disable div > span {
+  
+}
+.e-chkbox-wrap .e-chk-image.e-stop,
+.e-chkbox-wrap .e-chk-image.e-checkmark {
+  
+}
+.e-chkbox-wrap .e-chk-image.e-stop,
+.e-chkbox-wrap .e-chk-image.e-checkmark {
+  /*other*/
+  color: #179bd7;
+}
+.e-chkbox-wrap.e-disable .e-chk-image.e-stop,
+.e-chkbox-wrap.e-disable .e-chk-image.e-checkmark {
+  
+}
+.e-chkbox-wrap .e-chk-image.e-stop {
+  
+}
+.e-chkbox-wrap .e-chk-image.e-stop:before {
+  
+}
+.e-chkbox-wrap.e-disable .e-chk-image.e-checkmark {
+  
+}
+.e-chkbox-wrap .e-text {
+  font-family: Segoe UI, Helvetica Neue, Ubuntu, Arial;
+  font-size: 12px;
+  
+  color: #333333;
+}
+.e-check-small.e-chkbox-wrap .e-text {
+  
+}
+.e-check-medium.e-chkbox-wrap .e-text {
+  
+}
+.e-material-animate.e-chkbox-wrap .e-chk-act::before {
+  
+}
+.e-material-animate.e-chkbox-wrap .e-chk-inact::after {
+  
+}
+.e-material-animate.e-chkbox-wrap .e-chkbox-medium .e-chk-act::before {
+  
+}
+.e-material-animate.e-chkbox-wrap .e-chkbox-medium .e-chk-inact::after {
+  
+}
+@keyframes mediumShadow {
+  100% {
+    opacity: 0;
+    transform: scale(18, 18);
+  }
+}
+@keyframes smallShadow {
+  100% {
+    opacity: 0;
+    transform: scale(15, 15);
+  }
+}
+.e-chkbox-wrap div > span.e-chk-act:hover {
+  
+}
+.e-chkbox-wrap.e-disable div > span.e-chk-act {
+  
+}
+.e-chkbox-wrap.e-disable .e-chk-image.e-checkmark {
+  
+}
+.e-chkbox-wrap.e-disable div > span:hover {
+  
+}
+.e-chkbox-wrap.e-disable div > span {
+  
+}
+.e-chkbox-wrap.e-disable div > span.e-chk-act:hover {
+  
+}
+.e-chkbox-wrap div > span.e-chk-indeter {
+  
+}
+.e-chkbox-wrap div > span.e-chk-indeter:hover {
+  
+}
+.e-radiobtn-wrap.e-disable > span {
+  
+}
+.e-chkbox-wrap.e-disable div > span.e-chk-indeter {
+  
+}
+.e-chkbox-wrap.e-disable div > span {
+  background-color: whitesmoke;
+  border-color: #e3e3e3;
+}
+.e-chkbox-wrap.e-disable {
+  opacity: 1;
+}
+.e-chkbox-wrap.e-disable .e-chk-image.e-stop,
+.e-chkbox-wrap.e-disable .e-chk-image.e-checkmark {
+  color: #d6d7d7;
+}

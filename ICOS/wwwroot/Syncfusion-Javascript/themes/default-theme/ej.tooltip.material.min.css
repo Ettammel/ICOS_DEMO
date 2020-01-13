@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/*!
+*  filename: ej.tooltip.material.min.css
+*  version : 16.1.0.37
+*  Copyright Syncfusion Inc. 2001 - 2018. All rights reserved.
+*  Use of this code is subject to the terms of our license.
+*  A copy of the current license can be obtained at any time by e-mailing
+*  licensing@syncfusion.com. Any infringement will be prosecuted under
+*  applicable laws. 
+*/
+.e-content-area{background-color:#fff;color:#111;border-color:#e0e0e0;font-family:'Roboto',Segoe UI,Helvetica Neue,Ubuntu,Arial}.e-tooltip-wrap{border-radius:2px;border:0 solid #e0e0e0;background-color:#616161}.e-tooltip-wrap .e-arrowTipOuter{width:0;height:0;border-left:10px solid transparent;border-right:10px solid transparent;left:0;top:0;position:absolute}.e-tooltip-wrap .e-arrowTipOuter{border:none !important;border-top:10px solid none}.e-tooltip-wrap .e-arrowTipInner{width:0;height:0;border-left:9px solid transparent;border-right:9px solid transparent;left:1px;top:0;position:absolute}.e-tooltip-wrap .e-arrowTipInner{border-top:9px solid #616161}.e-def{font-family:'Roboto',Segoe UI,Helvetica Neue,Ubuntu,Arial;line-height:18px}.e-def{font-size:10px;color:#fff}.e-tooltip-wrap .e-tipContainer .e-tooltipHeader{background:none repeat scroll 0 0 #3f51b5;border-bottom:3px solid #3f51b5}.e-tooltip-wrap .e-tipContainer .e-tooltipHeader .e-close:before{color:#fff}.e-tooltip-wrap .e-tipContainer .e-tooltipHeader .e-close:hover{color:#424242;border-color:#e0e0e0}.e-tooltip-wrap .e-tipContainer .e-tooltipHeader .e-close:hover{background:#e0e0e0}.e-tooltip-wrap .e-cross-circle:hover{color:#424242;border-color:#e0e0e0}.e-tooltip-wrap .e-cross-circle:hover{background:#e0e0e0}

@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/*!
+*  filename: ej.slider.material.min.css
+*  version : 16.1.0.37
+*  Copyright Syncfusion Inc. 2001 - 2018. All rights reserved.
+*  Use of this code is subject to the terms of our license.
+*  A copy of the current license can be obtained at any time by e-mailing
+*  licensing@syncfusion.com. Any infringement will be prosecuted under
+*  applicable laws. 
+*/
+.e-content-area{background-color:#fff;color:#111;border-color:#e0e0e0;font-family:'Roboto',Segoe UI,Helvetica Neue,Ubuntu,Arial}.e-slider.e-widget{background-color:#bdbdbd;background-color:rgba(0,0,0,.26)}.e-tooltipbox{background-color:#616161;border-color:#616161;color:#fff}.e-slider .e-handle.e-select{background-color:#ff4081;border-color:#ff4081}.e-slider .e-handle.e-hover{background-color:#ff4081;border-color:#ff4081}.e-slider .e-handle.e-focus{background-color:#ff4081;border-color:#ff4081}.e-slider .e-range{background:#ff4081}.e-slider-wrap.e-disable .e-slider .e-range{background-color:rgba(0,0,0,.26);border-color:rgba(0,0,0,.26)}.e-slider-wrap.e-disable,.e-slider.e-disable{opacity:1}.e-slider-wrap.e-disable .e-handle.e-select{border-color:#fff;background-color:#bdbdbd}.e-scale .e-tick{background-image:url(images/slider-tick.png)}.e-slider-wrap .e-scale .e-tick .e-tick-value{color:rgba(0,0,0,.87)}.e-slider .e-handle.e-select.e-handle-start{background-color:#fff;border-color:rgba(0,0,0,.26)}.e-slider .e-handle.e-select.e-handle-start.e-focus{border-color:rgba(0,0,0,.38)}.e-slider-wrap.e-disable .e-handle.e-select.e-handle-start:after{border-color:#fff}.e-slider .e-handle.e-select.e-focus:not(.e-no-tab):after{border-color:#ff4081;background-color:#ff4081}.e-slider .e-handle.e-select.e-focus.e-handle-start:not(.e-no-tab):after{border-color:rgba(0,0,0,.24);background-color:rgba(0,0,0,.24)}.e-slider .e-handle.e-select.e-focus.e-handle-start:not(.e-no-tab){border-color:rgba(0,0,0,.24);background-color:#fff}.e-slider-wrap.e-disable .e-slider .e-handle:after{background-color:#fff}.e-slider-wrap .e-sliderbtn:not(.e-animate).e-select:not(:active):after{background-color:#000}

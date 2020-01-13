@@ -1,0 +1,206 @@
+﻿
+
+<body class="LoginBgcolor">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h3>TeleHealth</h3>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-1">
+                <div><img src="~/images/Icons/Icons/Profile.png" class="img-responsive pull-left IconTeleHealth" /></div>
+
+                <div>
+                    <img src="~/images/Icons/Icons/practitioner.png" class="img-responsive pull-left IconTeleHealth" onclick="TeleHealthSearch()" />
+                </div>
+
+                <div><img src="~/images/Icons/Icons/Appointments.png" class="img-responsive pull-left IconTeleHealth" /></div>
+                <div><img src="~/images/Icons/Icons/wallet.png" class="img-responsive pull-left IconTeleHealth" /></div>
+                <div><img src="~/images/Icons/Icons/Pharmacy.png" class="img-responsive pull-left IconTeleHealth" /></div>
+                <div><img src="~/images/Icons/Icons/History.png" class="img-responsive pull-left IconTeleHealth" /></div>
+                <br /><br /><br /><br /><br /><br /><br />
+
+            </div>
+            <div class="col-md-3">
+                <div id="dynForm">
+
+                </div>
+
+            </div>
+            <div class="col-md-7">
+                <div class="row">
+                    <ul class="list-group">
+                        @for (int d = 0; d < 1; ++d)
+                        {
+
+                            <li class="list-group-item clearfix" style="border:1px solid #459fed;">
+
+
+
+                                <div class="row">
+                                    <div class="col-sm-2">
+                                        <span>
+                                            <img src="~/images/icos/doctor5.jpg" class="img-responsive img-thumbnail pull-left profilePicTwo" />
+                                        </span>
+                                        <div class="offlineStatus">Offline</div>
+                                    </div>
+
+
+                                    <div class="col-sm-10">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Dr. Deepak</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label>Family Medicine</label>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <label>Department Two</label>
+
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <p> doctortwo@gmail.com</p>
+
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <p>For 10 min  20 AED</p>
+                                                <p>Additional min 20 AED</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="timeSpan">10:30 AM</div>
+                                        <div class="timeSpan">10:45 AM</div>
+                                        <div class="timeSpan">11:00 AM</div>
+                                        <div class="timeSpan">11:15 AM</div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="timeSpan">11:30 AM</div>
+                                        <div class="timeSpan">11:45 AM</div>
+                                        <div class="timeSpan">12:00 PM</div>
+                                        <div class="timeSpan">12:15 PM</div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="timeSpan">12:30 PM</div>
+                                        <div class="timeSpan">12:45 PM</div>
+                                        <div class="timeSpan">01:00 PM</div>
+                                        <div class="timeSpan">01:15 PM</div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="timeSpan">01:30 PM</div>
+                                        <div class="timeSpan">01:45 PM</div>
+                                        <div class="timeSpan">02:00 PM</div>
+                                        <div class="timeSpan">02:15 PM</div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <button class="btn btn-primary" style="width:100%;" disabled>
+                                            Video Consult Now
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </li>
+
+                        }
+                        <li class="list-group-item clearfix" style="border:1px solid #459fed;">
+
+
+
+                            <div class="row">
+                                <div class="col-sm-2">
+                                    <span>
+                                        <img src="~/images/icos/doctor2.png" class="img-responsive img-thumbnail pull-left profilePicTwo" />
+                                    </span>
+                                    <div class="onlineStatus">Online</div>
+                                </div>
+
+
+                                <div class="col-sm-10">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>Dr. John Smith</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label>Family Medicine</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <label>Pre-Depart</label>
+
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <p> doctorOne@gmail.com</p>
+
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <p>For 10 min  20 AED</p>
+                                            <p>Additional min 20 AED</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <div class="timeSpan">10:30 AM</div>
+                                    <div class="timeSpan">10:45 AM</div>
+                                    <div class="timeSpan">11:00 AM</div>
+                                    <div class="timeSpan">11:15 AM</div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="timeSpan">11:30 AM</div>
+                                    <div class="timeSpan">11:45 AM</div>
+                                    <div class="timeSpan">12:00 PM</div>
+                                    <div class="timeSpan">12:15 PM</div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="timeSpan">12:30 PM</div>
+                                    <div class="timeSpan">12:45 PM</div>
+                                    <div class="timeSpan">01:00 PM</div>
+                                    <div class="timeSpan">01:15 PM</div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="timeSpan">01:30 PM</div>
+                                    <div class="timeSpan">01:45 PM</div>
+                                    <div class="timeSpan">02:00 PM</div>
+                                    <div class="timeSpan">02:15 PM</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <button class="btn btn-primary" style="width:100%;">
+                                        @*<span class="glyphicon glyphicon-facetime-video"> </span>*@
+                                        Video Consult Now
+                                    </button>
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<link href="~/Style/Icos.css" rel="stylesheet" />
+<script src="~/Scripts/TeleHealth.js"></script>
